@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="ui form " action="/receive" method="POST">
+        <div class="field">
+            <label>Name
+                <span>(Firstname and Lastname)</span>
+            </label>
+            <input required type="text" name="name" placeholder="Name" />
+        </div>
+
+        <div class="field ">
+            <label>Email </label>
+            <input required type="text" name="email" placeholder="Email" />
+        </div>
+        <div class="field">
+            <label>Password
+                <span>(min. 6 char)</span>
+            </label>
+            <input required type="password" name="password" placeholder="Password" />
+        </div>
+        <button class="btn "> Join </button>
+    </form>
+
+
+    <script>
+        // Ajax
+        // $.ajax({});
+    </script>
+</body>
+
+</html>
